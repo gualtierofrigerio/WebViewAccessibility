@@ -1,0 +1,18 @@
+/* you can use this or put a meta color-scheme in your HTML
+ to support light and dark mode */
+
+:root {
+    color-scheme: light dark; /* enable light and dark mode compatibility */
+    supported-color-schemes: light dark; /* enable light and dark mode */
+}
+
+h1 {
+    color: red;
+}
+
+/* media query for dark mode */
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color:pink;
+    }
+}
