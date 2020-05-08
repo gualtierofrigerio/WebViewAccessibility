@@ -4,10 +4,17 @@
 :root {
     color-scheme: light dark; /* enable light and dark mode compatibility */
     supported-color-schemes: light dark; /* enable light and dark mode */
+    font-size:16px;
+    /* font: -apple-system-body; uncomment to use Apple system font */
 }
 
 h1 {
+    font-size: 2rem;
     color: red;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 /* media query for dark mode */
